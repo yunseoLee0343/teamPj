@@ -1,5 +1,5 @@
 import pymysql
-conn = pymysql.connect (host='localhost', port=3307, user='root', password='0000', db='teampj_db') #charset='utf8'
+conn = pymysql.connect (host='localhost', port=3307, user='root', password='0000', db='teampj_db')
 
 cursor = conn.cursor()
 
